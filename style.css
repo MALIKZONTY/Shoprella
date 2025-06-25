@@ -400,6 +400,9 @@ nav {
     padding: 2px 5px;
   }
 
+  .sub-nav{
+    justify-content:left;
+  }
   /* Sub Nav */
   .sub-nav a {
     font-size: 0.7rem;
