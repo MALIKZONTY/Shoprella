@@ -3,11 +3,11 @@ const sheetURL = "https://opensheet.elk.sh/1WQdEnCMDfx0Snh58n6Zd3yac7SdXpFihFgJf
 let allData = [];
 
 const subCategories = {
-    mens_wear: ['shirts', 'tshirts', 'jeans', 'trousers', 'jackets_coats', 'traditional_wear', 'night_wear'],
-    womens_wear: ['tops_tshirts', 'shirts', 'dresses', 'pants', 'skirts', 'traditional_wear', 'jackets_shrugs', 'night_wear'],
-    kids_wear: ['boys_clothing', 'girls_clothing', 'baby_clothing'],
+    mens_wear: ['shirts', 'tshirts_hoodies', 'jeans', 'trousers', 'jackets_coats', 'traditional_wear', 'shorts'],
+    womens_wear: ['tops_tshirts', 'shirts', 'dresses', 'pants', 'traditional_wear', 'saree', 'night_wear'],
+   /* kids_wear: ['boys_clothing', 'girls_clothing', 'baby_clothing'], */
     mens_footwear: ['slippers','casual_shoes', 'formal_shoes', 'sports_shoes'],
-    womens_footwear: ['heels', 'flats', 'sneakers', 'sandals'],
+    womens_footwear: ['heels', 'flats'],
     bags: ['backpacks', 'handbags']
 };
 
