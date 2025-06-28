@@ -438,29 +438,32 @@ nav {
 
   /* Products - Minimum 3 per row */
   .recent-items {
+    display: flex;
+  flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
   }
 
   .recent-item {
-    width: 170px;
-    padding: 8px;
+    flex: 0 0 48%;  /* Takes roughly half width with gap */
+  padding: 8px;
+  box-sizing: border-box;
   }
 
   .recent-item img {
-    height: 120px;
+    height: 100px;
   }
 
   .recent-item strong {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .recent-item span {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .recent-item a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   #page-title {
