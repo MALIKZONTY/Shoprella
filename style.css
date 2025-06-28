@@ -412,7 +412,7 @@ nav {
   /* Nav */
   nav ul {
     flex-wrap: nowrap;
-    padding:4px;
+    padding:8px;
     gap: 4px;
   }
 
@@ -421,17 +421,18 @@ nav {
   }
 
   nav ul li a {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     padding: 2px 5px;
   }
 
   .sub-nav{
     justify-content:left;
+    padding: 8px;
   }
   /* Sub Nav */
   .sub-nav a {
-    font-size: 0.7rem;
-    padding:1px;
+    font-size: 0.8rem;
+    padding:4px;
     gap: 4px;
   }
 
@@ -442,24 +443,24 @@ nav {
   }
 
   .recent-item {
-    width: calc(33% - 10px);
+    width: 170px;
     padding: 8px;
   }
 
   .recent-item img {
-    height: 80px;
+    height: 120px;
   }
 
   .recent-item strong {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .recent-item span {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .recent-item a {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 
   #page-title {
