@@ -4,10 +4,10 @@
   align-items: center;
   justify-content: center;
   padding: 30px;
-  background-color: #fff;
+  background-color: #90a8a8;
   max-width: 100vw;
 
-  background-image: url('sky.png');
+  /*background-image: url('sky.png');*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: makes it stay fixed when scrolling */
@@ -15,7 +15,8 @@
 }
 
 body {
-  background-image: url('Blue.png');
+  background-color : #002c2f;
+ /* background-image: url('Blue.png');*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: makes it stay fixed when scrolling */
@@ -50,7 +51,9 @@ body {
 
 .name h1 {
   font-size: 3rem;
-  color: #333;
+  /*color: #333;*/
+  color:  #1C1C1C
+
   margin: 0;
   margin-bottom:10px;
 }
@@ -59,13 +62,18 @@ body {
 
 .content h2 {
   font-size: 1rem;
-  color: #555;
+ /* color: #555;*/
+  color :  #2F4F4F;
+
   margin: 0;
 }
 
 .content p {
   font-size: 1rem;
-  color: #777;
+ /* color: #777; */
+  color :  #3E4C42
+
+;
   margin: 5px 0 0 0;
 }
 
@@ -74,7 +82,8 @@ body {
  /* Navigation Bar */
 
 nav {
-      background-image: url('nav.png');
+  background-color: #3e454c;
+    /*  background-image: url('nav.png'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: makes it stay fixed when scrolling */
@@ -280,7 +289,8 @@ nav {
 
 /* Sub Navigation (with horizontal scroll like main nav) */
 .sub-nav {
-  background-image: url('nav.png');
+ /* background-image: url('nav.png');*/
+  background-color: #3e454c;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; /* Optional: makes it stay fixed when scrolling */
@@ -359,7 +369,7 @@ nav {
   /* Nav */
 
   nav {
-      background-color: #f1f1f1;
+      
       overflow-x: auto;
       white-space: nowrap;
     }
@@ -396,10 +406,14 @@ nav {
   .circle-image {
     width: 50px;
     height: 50px;
+    margin-bottom:0px;
+    padding-bottom:0px;
   }
 
   .name h1 {
     font-size: 1.5rem;
+    margin-top:0px;
+    padding-top:0px;
   }
 
   .content h2 {
